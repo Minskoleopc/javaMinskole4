@@ -72,41 +72,7 @@ public class day5 {
 		else {
 			System.out.println("c is greater");
 		}
-		
-//		
-//		int flag = 1;
-//		// switch case
-//		
-//		switch(flag) {
-//		case a > b && a > c:
-//			System.out.println("a is greater");
-//			break;
-//		case b > a && b > c:
-//			System.out.println("b is greater");
-//		default:
-//			System.out.println("c is greater");
-//		
-//		}
-//		
-//		
-		
-		
-		
 				
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
