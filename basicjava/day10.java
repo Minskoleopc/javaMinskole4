@@ -82,6 +82,113 @@ public class day10 {
 		String q13 = info2.replaceAll("javascript", "java");
 		System.out.println(q13);
 		
+		// contains
+		
+		String q14 = "I am learning js";
+		boolean a1 = q14.contains("learning");
+		System.out.println(a1);
+		
+		
+		// indexOf()
+		
+		String city33 = "pune";
+		// 0    1   2   3
+		// p    u   n   e
+		
+		int a2 =  city33.indexOf("p");
+		System.out.println(a2);
+		
+		// lastIndexOf()
+		
+		String city44 = "chandrapur";
+		// 0  1  2  3  4  5  6  7  8  9
+		// C  h  a  n  d  r  a  p  u  r
+
+		int a3 =  city44.indexOf("a");
+		System.out.println(a3);
+		
+		int a4 = city44.lastIndexOf("a");
+		System.out.println(a4);
+		
+	
+		// split()
+		
+		String infoa = "chinmay-deshpande-7709192441";
+		String [] vl = infoa.split("-");  // {"chinmay","deshpande","7709192441"}
+		System.out.println(vl);
+		
+		for(int i = 0 ; i < vl.length ; i++) {
+			System.out.println(vl[i]);
+		}
+		
+		// isEmpty()
+		
+		String h = "";
+		System.out.println(h.isEmpty());
+		
+		String g = " ";
+		System.out.println(g.isBlank());
+		System.out.println(g.isEmpty());
+		
+		//isEqual()
+		
+		String a= "hello";
+		String b = "Hello";
+		
+		System.out.println(a.equals(b));
+		System.out.println(a.equals(b));
+		System.out.println(a.equalsIgnoreCase(b));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
