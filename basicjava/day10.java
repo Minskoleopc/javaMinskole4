@@ -3,13 +3,11 @@ package basicjava;
 public class day10 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
+		// TODO Auto-generated method stub	
 		// Method
 		// Action
 		// Return type 
-		
+	
 		// CharAt()
 		
 		String firstName = "chinmay";
@@ -31,7 +29,6 @@ public class day10 {
 		System.out.println(q2);
 		String q3 = info.substring(2,7);
 		System.out.println(q3);
-		
 		
 	
 		// toUpperCase()
