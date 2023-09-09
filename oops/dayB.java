@@ -44,7 +44,6 @@ class TeacherB extends StudentB {
 		
 		System.out.println(this.salary);
 	}
-	
 }
 
 
